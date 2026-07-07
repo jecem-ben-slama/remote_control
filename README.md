@@ -29,11 +29,11 @@ Download the latest production APK directly to your device to explore the interf
 
 > 📡 **Hardware requirement:** Your phone must have a built-in **IR blaster** (infrared transmitter) for this app to work. Most modern phones do not include one — it's mainly found on certain Xiaomi, Huawei, and older Samsung/HTC models. If your device lacks an IR blaster, the app will install but won't be able to transmit any commands.
 
-> ⚠️ **Scope note:** This build is currently configured to work *only* with the SMASNUG ( Samsung-knockoff ) Andoird TV, it was reverse-engineered against (see [Limitations](#️-current-scope--limitations)). It's shared primarily as a **pesonnel backup plan**, not as a universal remote.
+> ⚠️ **Scope note:** This build is currently configured to work *only* with the SMASNUG ( Samsung-knockoff ) Andoird TV, it was reverse-engineered against (see [Limitations](#️-current-scope--limitations)). It was intended primarily as a **pesonnel backup plan**, not as a universal remote.
 
 ### Installation Steps
 
-1. Download `app-release.apk` from the [releases page](https://github.com/yourname/remote-control/releases/latest).
+1. Download `app-release.apk` from the [![Latest Release](https://img.shields.io/github/v/release/jecem-ben-slama/remote_control)](https://github.com/jecem-ben-slama/remote_control/releases/latest/download/app-release.apk)
 2. If prompted, allow installation from unknown sources in your Android system settings.
 3. Open the downloaded file to complete installation.
 4. Launch the app and grant **IR blaster permissions** when requested.
