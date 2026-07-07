@@ -71,11 +71,15 @@ Regulatory Docs (licences used) ──▶ Identify NEC Protocol ──▶ Addres
 ---
 
 ## ⚠️ Current Scope & Limitations
+-**This version is intentionally scoped down.** The original screens/tools used during the discovery phase — the frequency sweeping and address brute-forcing utilities — are **not included in this release**. What's currently shipped is
+* The **remote control UI**
+* The **command mapping screen**
+* A **last-resort "wake screen on" attempt**, which currently **does not work**
 
-- **Scoped utilities.** To keep this release safe for standard users, the raw frequency-sweeping and address brute-forcing diagnostic tools used during development have been **omitted from this build**.
-- **Wake-on-IR status.** The "wake screen on" behavior **is disabled/non-functional** in this iteration for unknown reasons. It should work based on the implementation, but it does not..
+- **Wake-on-IR status.** A **last-resort "wake screen on" attempt**, which currently **does not work**
+The discovery tooling (protocol/frequency scanning and address brute-forcing) may be reintroduced in a future version, restructured into a guided workflow so a user can walk through the same process used here and reverse-engineer/map a remote for their own appliance, rather than being limited to this specific TV.
 - **Hardware interoperability.** This build is was targeted at a **SMASNUG TV** and does **not** guarantee support for mainstream, universal brand matching out of the box.
-
+- **Future Releases.** In the future, I may rework the app to expose the underlying steps/workflow used to reverse-engineer a remote — protocol detection, address brute-forcing, and command mapping — so users can walk through the same process themselves and generate a fully custom remote for their own appliance, instead of being limited to this specific TV.
 ---
 
 ## 💻 Tech Stack & Underlying Dependencies
